@@ -35,6 +35,6 @@ public final class PrestoServer
         }
 
         String version = PrestoServer.class.getPackage().getImplementationVersion();
-        new Server().start(firstNonNull(version, "unknown"));
+        new Server().start(firstNonNull(version, "343"));
     }
 }
