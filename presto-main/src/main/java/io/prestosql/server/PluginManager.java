@@ -126,6 +126,9 @@ public class PluginManager
         this.sessionPropertyDefaults = requireNonNull(sessionPropertyDefaults, "sessionPropertyDefaults is null");
     }
 
+    /**
+     * todo guan loadPlugins
+     */
     public void loadPlugins()
             throws Exception
     {

@@ -27,6 +27,9 @@ public class StaticCatalogStoreConfig
 {
     private static final Splitter SPLITTER = Splitter.on(',').trimResults().omitEmptyStrings();
 
+    /**
+     * todo guan etc/catalog
+     */
     private File catalogConfigurationDir = new File("etc/catalog/");
     private List<String> disabledCatalogs;
 

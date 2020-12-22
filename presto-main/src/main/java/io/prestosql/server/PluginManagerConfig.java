@@ -25,6 +25,9 @@ import java.util.List;
 
 public class PluginManagerConfig
 {
+    /**
+     * todo guan 配置文件目录
+     */
     private File installedPluginsDir = new File("E:\\guan\\presto-plugin");
     private List<String> plugins;
     private String mavenLocalRepository = ArtifactResolver.USER_LOCAL_REPO;

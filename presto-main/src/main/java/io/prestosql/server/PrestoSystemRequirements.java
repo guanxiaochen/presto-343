@@ -131,6 +131,7 @@ final class PrestoSystemRequirements
 
     private static OptionalLong getMaxFileDescriptorCount()
     {
+        // TODO guan windows测试
         Object maxFileDescriptorCount = 10000;
         return OptionalLong.of(((Number) maxFileDescriptorCount).longValue());
 //        return Stream.of(ManagementFactory.getOperatingSystemMXBean())
